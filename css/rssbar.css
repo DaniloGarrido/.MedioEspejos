@@ -1,0 +1,50 @@
+:root{--ancho :200px;
+  --alto :200px;
+
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+ transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  padding:9px;
+  transition: all 0.3s ease;
+  
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+  text-decoration: none;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.instagram{
+  background: #c13584;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
